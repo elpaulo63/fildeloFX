@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="200" prefWidth="300" spacing="10" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.paul.filedelofx.PrimaryController">
+
+    <!-- Text for Title (e.g., Fildelo BTS CG) -->
+    <Text style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-fill: blue;" text="Fildelo" />
+    <Text style="-fx-font-size: 16px; -fx-font-weight: bold; -fx-fill: purple;" text="BTS CG" />
+    
+    <!-- ComboBox for user selection -->
+    <ComboBox fx:id="userComboBox" prefWidth="200">
+        <items>
+
+        </items>
+    </ComboBox>
+    
+    <!-- PasswordField for password input -->
+    <PasswordField fx:id="passwordField" prefWidth="200" promptText="Password" />
+    
+    <!-- Login Button -->
+    <Button fx:id="loginButton" onAction="#clickconnexion" prefWidth="200" text="Connexion" />
+    
+</VBox>

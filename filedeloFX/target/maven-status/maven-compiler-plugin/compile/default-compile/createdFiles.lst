@@ -1,0 +1,9 @@
+com\paul\filedelofx\SingletonWebServiceClient.class
+com\paul\filedelofx\Enseignant.class
+com\paul\filedelofx\Etudiant.class
+com\paul\filedelofx\Personne.class
+com\paul\filedelofx\App.class
+com\paul\filedelofx\PrimaryController.class
+com\paul\filedelofx\SSLUtil.class
+com\paul\filedelofx\SSLUtil$1.class
+com\paul\filedelofx\SecondaryController.class
